@@ -1,1 +1,0 @@
-# systems-journal.github.io
