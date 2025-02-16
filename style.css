@@ -1,0 +1,16 @@
+.nav-link {
+    margin-right: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 30px;
+}
+
+/* You can choose color
+.bg-dark {
+    background-color: #062454 !important;
+} */
+
+.text-secondary {
+    text-decoration: underline;
+}

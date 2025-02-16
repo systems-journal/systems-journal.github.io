@@ -7,6 +7,7 @@
     <title>Friendly Journal of Software Systems</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,35 +15,67 @@
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
-    <div class="container">
-        <header class="d-flex justify-content-center py-3">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="committee.html" class="nav-link">Committee</a></li>
-                <li class="nav-item"><a href="cfp.html" class="nav-link">Call for Papers</a></li>
-                <li class="nav-item"><a href="accepted.html" class="nav-link">Accepted Papers</a></li>
-            </ul>
-        </header>
-    </div>
 
-    <div class="container">
-        <h1>About</h1>
-        <p>
-            This is a webpage of a newly established Friendly Journal of Software Systems.
-        </p>
-        <p>
-            The main goal of this journal is to encourage people from industry to submit their work for a friendly
-            peer-review and share with the community in one place.
-        </p>
-        <p>
-            Currently, there is <b>no indexing</b> of papers in scientific databases.
-            Instead we just publish all accepted (peer-reviewed) papers on our website <a href="accepted.html">here</a>.
-        </p>
-        <p>
-            We consider this journal to be just the first step to validate the idea and encourage the authors submit
-            to indexed journals or conferences with proceedings later.
-        </p>
-        <p>If you have any questions, please contact us by email <a href="mailto:systemsjournal@gmail.com">systemsjournal@gmail.com</a>.</p>
+    <header class="p-3 bg-dark text-white">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="committee.html" class="nav-link px-2 text-white">Committee</a></li>
+                    <li><a href="cfp.html" class="nav-link px-2 text-white">Call for Papers</a></li>
+                    <li><a href="accepted.html" class="nav-link px-2 text-white">Accepted Papers</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" style="margin-top: 30px;">
+        <div class="container">
+            <h1>About</h1>
+            <p>
+                This is a webpage of a newly established Friendly Journal of Software Systems.
+            </p>
+            <p>
+                The main goal of this journal is to encourage people from industry to submit their work for a friendly
+                peer-review and share with the community in one place.
+            </p>
+            <p>
+                Currently, there is <b>no indexing</b> of papers in scientific databases.
+                Instead we just publish all accepted (peer-reviewed) papers on our website <a
+                    href="accepted.html">here</a>.
+            </p>
+            <p>
+                We consider this journal to be just the first step to validate the idea and encourage the authors submit
+                to indexed journals or conferences with proceedings later.
+            </p>
+            <p>If you have any questions, please contact us by email <a
+                    href="mailto:systemsjournal@gmail.com">systemsjournal@gmail.com</a>.</p>
+        </div>
+        <div class="container">
+            <h4>Topics</h4>
+            <p>Our journal seeks papers on the following areas of computer systems research:
+            <ul>
+                <li>Operating systems</li>
+                <li>Distributed systems</li>
+                <li>Cloud computing and datacenter systems</li>
+                <li>File and storage systems</li>
+                <li>Networked systems</li>
+                <li>Language support and runtime systems</li>
+                <li>Analysis, testing and verification of systems</li>
+                <li>Database systems and data analytics frameworks</li>
+                <li>Parallelism, concurrency, and multicore systems</li>
+                <li>Real-time, embedded, and cyber-physical systems</li>
+                <li>Systems for emerging hardware</li>
+            </ul>
+            </p>
+        </div>
     </div>
 </body>
 
